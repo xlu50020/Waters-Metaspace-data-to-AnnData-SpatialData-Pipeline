@@ -17,7 +17,7 @@ Python, METASPACE account/API key, AnnData, SpatialData, Scanpy, Napari.
 Step-by-step commands.
 
 ## Example Outputs
-<img width="648" height="304" alt="Screenshot 2026-07-27 at 9 15 19 PM" src="https://github.com/user-attachments/assets/1f727b79-47e2-4aab-bf2f-ef46d1df441d" />
+<img width="989" height="465" alt="Screenshot 2026-07-27 at 9 21 14 PM" src="https://github.com/user-attachments/assets/702e0539-0ef0-4fe3-8054-c1b43e9d0b7d" />
 <img width="989" height="485" alt="Screenshot 2026-07-27 at 9 17 27 PM" src="https://github.com/user-attachments/assets/039b7969-944c-4f4d-91c9-c9b2e42632b8" />
 <img width="989" height="485" alt="Screenshot 2026-07-27 at 9 17 46 PM" src="https://github.com/user-attachments/assets/7ff89a03-37b5-40ec-a693-a7ba06ad1138" />
 
