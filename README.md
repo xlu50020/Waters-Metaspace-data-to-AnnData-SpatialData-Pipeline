@@ -1,3 +1,4 @@
+<img width="648" height="304" alt="Screenshot 2026-07-27 at 9 15 19 PM" src="https://github.com/user-attachments/assets/1f727b79-47e2-4aab-bf2f-ef46d1df441d" />
 # Dual-Modality DESI-MSI METASPACE-to-AnnData/SpatialData Integration Pipeline
 
 ## Overview
@@ -17,7 +18,7 @@ Python, METASPACE account/API key, AnnData, SpatialData, Scanpy, Napari.
 Step-by-step commands.
 
 ## Example Outputs
-Show Leiden map, UMAP, marker dot plot, top marker ion images.
+
 
 ## Notes
 Manual XY registration, ROI selection, limitations.
