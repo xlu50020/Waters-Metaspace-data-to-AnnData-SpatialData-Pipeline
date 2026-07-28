@@ -14,7 +14,21 @@ A key feature of this project was the use of OpenAI Codex as an interactive prog
 Python, METASPACE account/API key, AnnData, SpatialData, Scanpy, Napari.
 
 ## Example Pipeline
-Step-by-step commands.
+
+1. Export METASPACE annotations to AnnData:
+python scripts/01_metaspace_converter_to_anndata.py
+2. Combine database-specific AnnData files:
+python scripts/02_combine_database_h5ad_files.py
+3. Remove duplicated m/z features:
+python scripts/03_remove_duplicate_mz_features.py
+4. Manually align two MSI acquisitions using TIC landmarks:
+python scripts/04_manual_landmark_xy_registration.py
+5. Create a shared-grid AnnData file and convert to SpatialData:
+python scripts/05_create_shared_grid_anndata_spatialdata.py
+6. Open SpatialData in Napari, draw ROI, and export ROI data:
+python scripts/06_napari_roi_background_removal.py
+7. Run Leiden clustering and generate figures:
+python scripts/07_spatialdata_leiden_clustering_and_figures.py
 
 ## Example Outputs
 <img width="989" height="465" alt="Screenshot 2026-07-27 at 9 21 14 PM" src="https://github.com/user-attachments/assets/702e0539-0ef0-4fe3-8054-c1b43e9d0b7d" />
